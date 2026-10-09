@@ -2,7 +2,6 @@
 name: "✨ Feature Request"
 about: "Suggest a brand-new capability or feature."
 title: "[Feature]: "
-labels: "✨ New Feature"
 assignees: "imthatdev"
 ---
 

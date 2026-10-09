@@ -2,7 +2,6 @@
 name: "🐛 Bug Report"
 about: "Report a reproducible bug or unexpected behavior."
 title: "[Bug]: "
-labels: "🐛 Bug"
 assignees: "imthatdev"
 ---
 

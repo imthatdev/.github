@@ -2,7 +2,6 @@
 name: "💡 Improvement Suggestion"
 about: "Suggest an improvement to existing functionality."
 title: "[Enhancement]: "
-labels: "🚀 Enhancement"
 assignees: "imthatdev"
 ---
 
