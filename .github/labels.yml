@@ -1,115 +1,124 @@
+# Iconical — Shared GitHub Labels
+# Names are preserved for compatibility with existing templates.
+
+# Change types
 - name: "💥 Breaking Change"
-  color: ee0701
-  description: "This update will break existing functionality. Proceed with caution."
+  color: "b60205"
+  description: "A change that may require updates to existing integrations or usage."
 
 - name: "🐛 Bug"
-  color: ee0701
-  description: "Something isn't working right. Fix it before it becomes self-aware."
+  color: "d73a4a"
+  description: "Something is not working as intended."
 
 - name: "📖 Documentation"
-  color: 0052cc
-  description: "Changes related to documentation. Because words matter too."
+  color: "0075ca"
+  description: "Documentation updates, corrections, or improvements."
 
 - name: "🚀 Enhancement"
-  color: 1d76db
-  description: "Improving something that already exists but making it cooler."
+  color: "a2eeef"
+  description: "An improvement to existing functionality."
 
 - name: "🛠️ Refactor"
-  color: 1d76db
-  description: "Code improvements without changing functionality. Like a code spa day."
+  color: "c5def5"
+  description: "Internal code improvements without intended behavior changes."
 
 - name: "⚡ Performance"
-  color: 1d76db
-  description: "Making things run faster. Because speed matters."
+  color: "1d76db"
+  description: "Improvements to speed, memory use, or efficiency."
 
 - name: "✨ New Feature"
-  color: 0e8a16
-  description: "Adding something shiny and new to the project."
+  color: "0e8a16"
+  description: "A new capability or feature."
 
 - name: "🔧 Maintenance"
-  color: 2af79e
-  description: "General project upkeep. Nothing exciting, but necessary."
+  color: "d4c5f9"
+  description: "Routine maintenance and project upkeep."
 
 - name: "📦 Dependencies"
-  color: 1d76db
-  description: "Updating, adding, or removing dependencies. Hope nothing breaks."
+  color: "0366d6"
+  description: "Dependency updates, additions, or removals."
 
+# Resolution and triage
 - name: "🛑 Won't Fix"
-  color: ffffff
-  description: "This issue won't be fixed. Probably because it's not an issue."
+  color: "eeeeee"
+  description: "Reviewed and not planned for implementation."
 
 - name: "💤 Stale"
-  color: fef2c0
-  description: "This issue or PR has been gathering dust."
+  color: "fef2c0"
+  description: "Inactive and awaiting review or follow-up."
 
 - name: "🚫 No Stale"
-  color: fef2c0
-  description: "This issue or PR is immune to the Stale Bot's wrath."
+  color: "c2e0c6"
+  description: "Excluded from automated stale processing."
 
 - name: "🔒 Security"
-  color: ee0701
-  description: "This is a security issue. Handle it before hackers do."
+  color: "b60205"
+  description: "Public security maintenance or advisories; report vulnerabilities privately."
 
 - name: "🤷 Incomplete"
-  color: fef2c0
-  description: "This issue or PR is missing important details. Fill in the blanks."
+  color: "fbca04"
+  description: "Additional information is needed to proceed."
 
 - name: "🚫 Invalid"
-  color: fef2c0
-  description: "This issue or PR doesn’t meet requirements. Try again."
-
-- name: "👶 Beginner Friendly"
-  color: 0e8a16
-  description: "A good first issue for new contributors. We believe in you!"
-
-- name: "🆘 Help Wanted"
-  color: 0e8a16
-  description: "Need extra hands on this. Or just a shoulder to cry on."
-
-- name: "🧪 Experimental"
-  color: bfdadc
-  description: "An experimental feature or issue. Might work. Might not."
-
-- name: "☢️ Priority: Critical"
-  color: ee0701
-  description: "This needs fixing ASAP. The world might end otherwise."
-
-- name: "⚡ Priority: High"
-  color: b60205
-  description: "Should be done soon, but we won’t lose sleep over it… yet."
-
-- name: "🔥 Priority: Medium"
-  color: 0e8a16
-  description: "Nice to have, but not urgent. Maybe next sprint. Maybe never."
-
-- name: "❄️ Priority: Low"
-  color: e4ea8a
-  description: "If we ever get bored, we might fix this."
+  color: "e4e669"
+  description: "Does not meet the requirements for a valid issue or request."
 
 - name: "🙃 Duplicate"
-  color: cfd3d7
-  description: "This issue or PR already exists. Check before submitting."
+  color: "cfd3d7"
+  description: "Already reported or tracked elsewhere."
 
+# Contributor opportunities
+- name: "👶 Beginner Friendly"
+  color: "7057ff"
+  description: "Suitable for contributors who are new to this project."
+
+- name: "🆘 Help Wanted"
+  color: "008672"
+  description: "Contributions or assistance from the community are welcome."
+
+- name: "🧪 Experimental"
+  color: "bfdadc"
+  description: "Experimental functionality or changes under evaluation."
+
+# Priorities
+- name: "☢️ Priority: Critical"
+  color: "b60205"
+  description: "Critical impact requiring urgent maintainer attention."
+
+- name: "⚡ Priority: High"
+  color: "d93f0b"
+  description: "High-impact work requiring elevated attention."
+
+- name: "🔥 Priority: Medium"
+  color: "fbca04"
+  description: "Moderate priority under the current project roadmap."
+
+- name: "❄️ Priority: Low"
+  color: "c2e0c6"
+  description: "Lower-priority work that may be scheduled later."
+
+# Releases and versioning
 - name: "🚀 Release"
-  color: bada55
-  description: "This is related to a new release. Pop the champagne!"
+  color: "5319e7"
+  description: "Release preparation, publishing, or related maintenance."
 
 - name: "🔟 Major"
-  color: b60205
-  description: "This PR requires a major version bump. Big changes incoming!"
+  color: "b60205"
+  description: "A major version change under the project's versioning policy."
 
 - name: "🔢 Minor"
-  color: 0e8a16
-  description: "This PR causes a minor version bump. Small but important."
+  color: "0e8a16"
+  description: "A minor version change under the project's versioning policy."
 
+# Estimated effort
 - name: "⏳ Time: Long"
-  color: 333333
-  description: "This will take about a week. Buckle up."
+  color: "333333"
+  description: "Estimated to require substantial implementation effort."
 
 - name: "⌚ Time: Medium"
-  color: 999999
-  description: "A few days of work. Manageable."
+  color: "999999"
+  description: "Estimated to require a moderate amount of effort."
 
 - name: "⏲️ Time: Short"
-  color: eeeeee
-  description: "A few hours of effort. Easy peasy."
+  color: "eeeeee"
+  description: "Estimated to require relatively little implementation effort."

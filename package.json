@@ -1,8 +1,10 @@
 {
+  "name": "iconical-github-config",
+  "private": true,
   "type": "module",
   "packageManager": "pnpm@10.4.1",
   "scripts": {
-    "build": "sponsorkit"
+    "build": "sh ./build.sh"
   },
   "devDependencies": {
     "@types/node": "^22.13.4",

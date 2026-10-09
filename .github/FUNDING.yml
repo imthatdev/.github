@@ -1,2 +1,7 @@
+# ❤️ Support Iconical's independent development
+
 buy_me_a_coffee: iconical
-custom: [iconical.dev/support]
+
+# Central support and membership information.
+custom:
+  - "https://iconical.dev/support"

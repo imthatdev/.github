@@ -1,14 +1,35 @@
-name: Sync labels
+name: 🏷️ Sync Repository Labels
+
 on:
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview changes without modifying labels"
+        type: boolean
+        required: true
+        default: true
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: label-sync
+  cancel-in-progress: false
 
 jobs:
-  labels:
+  sync-labels:
+    name: Synchronize labels
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: EndBug/label-sync@v2
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Preview or apply labels
+        uses: EndBug/label-sync@v2
         with:
-          config-file: 'https://raw.githubusercontent.com/sleepyico/.github/master/.github/labels.yml'
-          delete-other-labels: true
-          token: ${{ secrets.TOKEN }}
+          config-file: ".github/labels.yml"
+          dry-run: ${{ inputs.dry_run }}
+          delete-other-labels: false
+          token: ${{ github.token }}
