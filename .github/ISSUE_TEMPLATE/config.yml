@@ -1,8 +1,18 @@
+# Iconical — GitHub Issue Chooser
+
+# Keep reports organized using the available issue templates.
+# The General Issue template provides a fallback category.
 blank_issues_enabled: false
+
 contact_links:
-  - name: GitHub Discussions
-    url: https://github.com/sleepyico/sleepyico/discussions
-    about: Start a discussion, ask and answer questions here.
-  - name: Discord support server
-    url: https://discord.gg/QXpFpg94uG
-    about: The best place to go for help installing or using my projects.
+  - name: "🔒 Report a Security Vulnerability"
+    url: "https://iconical.dev/policies/security"
+    about: "Report vulnerabilities privately. Do not disclose sensitive security issues through public GitHub issues."
+
+  - name: "💬 Join the Iconical Community"
+    url: "https://iconical.dev/discord"
+    about: "Ask questions, discuss projects, and connect with the community."
+
+  - name: "🆘 Contact Iconical Support"
+    url: "https://iconical.dev/contact"
+    about: "Get help with general inquiries or problems that aren't suitable for a public issue."

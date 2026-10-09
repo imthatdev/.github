@@ -1,60 +1,70 @@
 ---
-name: 🪲 Bug Report
-about: Report a bug that's causing unexpected chaos.
-title: "[BUG] -> "
+name: "🐛 Bug Report"
+about: "Report a reproducible bug or unexpected behavior."
+title: "[Bug]: "
 labels: "🐛 Bug"
-assignees: "@sleepyico"
+assignees: "imthatdev"
 ---
 
-# 🛠 Bug Report
+# 🐛 Bug Report
 
-#### ⚠️ **Note:** 
-This template is for **bug reports only**. If you’re here to request a feature, you’re in the wrong place—use the **Feature Request** template instead. 
+Thanks for helping improve this project! ❤️
 
----
+Please provide enough detail for us to understand and reproduce the issue.
 
-## 🐞 Describe the Bug
-**What went wrong?**
+> [!IMPORTANT]
+> Found a security vulnerability? **Do not report it publicly.**
+> Follow our [Security Policy](https://iconical.dev/policies/security) or email security@iconical.dev.
 
-<!-- Example: "Clicked 'Print' and instead of getting my file, my browser had an existential crisis and froze for 10 minutes." -->
+## Description
 
-## 🔢 Affected Version
-**Which version/commit of the project does this affect?**
+<!-- Clearly describe the bug and what went wrong. -->
 
-<!-- Example: "The latest version. You know, the one that was supposed to fix everything but somehow made it worse T-T" -->
+## Steps to Reproduce
 
-## 🔄 Current Behavior
-**What unexpected nonsense is happening?**
+1.
+2.
+3.
 
-<!-- Example: "The budget graph now displays my expenses in negative, meaning I'm apparently earning money by spending it. If only life worked that way." -->
+## Expected Behavior
 
-## ✅ Expected Behavior
-**What should have happened instead?**
+<!-- What did you expect to happen? -->
 
-<!-- Example: "I expected my printed file to actually appear instead of vanishing into the void like my free time." -->
+## Actual Behavior
 
-## 📝 Steps to Reproduce
-**How can we make this disaster happen again?**
-1. Open the app.
-2. Click 'Print'.
-3. Witness the chaos.
-4. Panic.
+<!-- What happened instead? -->
 
-## 🖥️ Relevant Code
-```ts
-// If applicable, provide code snippets to illustrate the bug.
-console.log("Oops, something broke again. Classic!!! 💀");
+## Environment
+
+- **Project version / commit:**
+- **Operating system:**
+- **Runtime / engine / framework version (if applicable):**
+- **Installation or deployment method (if applicable):**
+
+## Logs and Screenshots
+
+<!-- Include relevant errors, sanitized logs, screenshots, or recordings. -->
+
+<details>
+<summary>Logs (optional)</summary>
+
+```text id="ekybn9"
+Paste sanitized logs here.
 ```
 
-## 📸 Screenshots
-**Got proof? Show us!**
+</details>
 
-<!-- Example: "Here’s a screenshot of the app giving me a vague error message that tells me absolutely nothing useful." -->
+## Additional Context
 
-## ℹ️ Additional Context
-**Any last words before we investigate?**
+<!-- Workarounds, related issues, or other useful information. -->
 
-<!-- Example: "I have tried everything short of hacking into the Matrix to fix this. Help." -->
+## Checklist
+
+- [ ] I searched existing issues for duplicates.
+- [ ] I can reproduce the problem, or have explained why I cannot.
+- [ ] I removed secrets and sensitive information from my report.
+- [ ] I checked the relevant documentation.
 
 ---
-📌 *Thanks for reporting this. I'll fix it... eventually. Maybe. Probably. No promises.* 
+
+Thanks for taking the time to report this! 🚀

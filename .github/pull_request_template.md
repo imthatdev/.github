@@ -1,55 +1,79 @@
----
-name: 🚀 Pull Request
-about: Submit a PR to improve this project.
-title: "[PR] -> "
-labels: ""
-assignees: "@sleepyico"
----
-
 # 🚀 Pull Request
 
-#### ⚠️ **Note:** 
-This is a **Pull Request**; meaning that you can only submit a Pull Request for something you coded and want to contribute with us; Please don't submit any suggestions or features requests in this request and use the each template for their purpose.
+Thank you for contributing to Iconical! ❤️
 
+Please describe your changes and provide enough information for maintainers to review and test them.
 
-## 📌 Summary
-**What does this PR do?**
+Before submitting, review our [Contribution Guidelines](https://github.com/imthatdev/.github/blob/master/CONTRIBUTING.md).
 
-<!-- Example: "Fixes a bug where a transaction disappear into the void instead of adding to the list properly." -->
+## Summary
 
-## 🔍 Related Issues
-**Does this PR fix any existing issues?**
+<!-- Briefly explain what this PR changes and why. -->
 
-<!-- Example: "Fixes #42 (The meaning of life bug)." -->
+## Related Issues
 
-## 📝 Changes
-  - [ ] New feature added
-  - [ ] Bug fixed
-  - [ ] Code refactored
-  - [ ] Documentation updated
+<!-- Use "Closes #123", "Fixes #123", or relevant issue links. -->
 
-## 🔄 How to Test
-**Steps to verify this PR works as intended:**
-  1. Pull this branch.
-  2. Run the app.
-  3. Try the feature.
-  4. Confirm that nothing exploded.
+## Type of Change
 
-## 🖥️ Screenshots/Logs (if applicable)
-**Any visual proof?**
+- [ ] 🐛 Bug fix
+- [ ] ✨ New feature
+- [ ] 🚀 Enhancement
+- [ ] 🛠️ Refactoring
+- [ ] ⚡ Performance improvement
+- [ ] 📖 Documentation
+- [ ] 🔧 Maintenance / dependencies
+- [ ] 🔒 Security improvement
+- [ ] 💥 Breaking change
+- [ ] Other
 
-<!-- Example: "Here’s a screenshot of the app not catching on fire anymore." -->
+## Changes Made
 
-## ❗ Checklist
-  - [ ] Code follows project guidelines.
-  - [ ] Tests have been added or updated.
-  - [ ] No console errors.
-  - [ ] Documentation updated (if needed).
+<!-- Summarize the important changes. -->
 
-## ℹ️ Additional Context
-**Any final notes?**
+-
 
-<!-- Example: "This PR should fix the issue, but if something breaks, I was never here." -->
+## Testing and Verification
+
+**How were these changes tested?**
+
+<!-- Include actual commands, manual testing steps, or CI results. -->
+
+```text id="aizshd"
+Commands or verification steps:
+```
+
+**Results:**
+
+<!-- Describe what passed, failed, or could not be tested. -->
+
+## Compatibility and Breaking Changes
+
+- **Breaking changes:** None / Describe
+- **Migration required:** No / Describe
+- **Affected versions or platforms:** Not applicable / Describe
+
+<!-- Remove irrelevant items or provide more detail where necessary. -->
+
+## Screenshots or Recordings (Optional)
+
+<!-- Before/after images or recordings for visual changes. -->
+
+## Additional Notes (Optional)
+
+<!-- New dependencies, important implementation decisions, or review considerations. -->
+
+## Contributor Checklist
+
+- [ ] I followed the project's contribution guidelines.
+- [ ] My changes are focused and relevant to this PR.
+- [ ] I tested my changes or explained why testing was not possible.
+- [ ] I updated documentation where necessary.
+- [ ] I reviewed compatibility and potential breaking changes.
+- [ ] I checked for exposed credentials or sensitive information.
+- [ ] I verified any added third-party materials have compatible licenses.
+- [ ] I am authorized to submit these contributions under the applicable project license.
 
 ---
-📌 *Thanks for your contribution! We'll review this PR soon.*
+
+Thanks for helping make Iconical projects better! 💖
